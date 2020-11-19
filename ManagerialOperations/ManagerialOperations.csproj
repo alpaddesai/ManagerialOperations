@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ButtonClick.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ButtonClick.png" />
+  </ItemGroup>
+
 </Project>

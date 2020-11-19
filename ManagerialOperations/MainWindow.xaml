@@ -5,8 +5,98 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ManagerialOperations"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="MainWindow" Height="637" Width="823" MaxWidth="823" MaxHeight="637">
+    <Window.Background>
+        <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.MenuBarColorKey}}"/>
+    </Window.Background>
+    <Grid Margin="0,0,6,12" MaxWidth="817" MaxHeight="609">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="403*"/>
+            <ColumnDefinition Width="6*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlLightLightColorKey}}"/>
+        </Grid.Background>
+        <Button x:Name="SupplyChainOperations" Content="Supply Chain Operations" HorizontalAlignment="Left" Margin="36,38,0,0" VerticalAlignment="Top" Height="70" Width="170" Click="SupplyChainOperations_Click" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="ProcessCapacity" Content="Process Capacity" HorizontalAlignment="Left" Margin="37,153,0,0" VerticalAlignment="Top" Width="170" Height="70" FontWeight="Bold" FontStyle="Normal" Click="ProcessCapacity_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="ProductProcessInnovation" Content="Product Process Innovation" HorizontalAlignment="Left" Margin="37,276,0,0" VerticalAlignment="Top" Width="170" Height="70" FontWeight="Bold" Click="ProductProcessInnovation_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="ManufacturingProcesses" Content="Manufacturing Processes" HorizontalAlignment="Left" Margin="35,404,0,0" VerticalAlignment="Top" Height="70" Width="170" FontWeight="Bold" Click="ManufacturingProcesses_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="LeanSystems" Content="Lean Systems" HorizontalAlignment="Left" Margin="32,517,0,0" VerticalAlignment="Top" Width="170" Height="70" FontWeight="Bold" Click="LeanSystems_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="ManagingQuality" Content="Managing Quality" HorizontalAlignment="Left" Margin="296,48,0,0" VerticalAlignment="Top" Width="170" Height="70" FontWeight="Bold" Click="ManagingQuality_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Managing_Inventories" Content="Managing Inventories" HorizontalAlignment="Left" Margin="300,154,0,0" VerticalAlignment="Top" Height="70" Width="170" FontWeight="Bold" Click="Managing_Inventories_Click">
+            <Button.BorderBrush>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Customer_Service_Logistics" Content="Customer Service Logistics" HorizontalAlignment="Left" Margin="300,284,0,0" VerticalAlignment="Top" Width="170" Height="70" FontWeight="Bold" Click="Customer_Service_Logistics_Click">
+            <Button.BorderBrush>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="SupplyManagement" Content="Supply Management" HorizontalAlignment="Left" Margin="305,404,0,0" VerticalAlignment="Top" Width="170" Height="70" FontWeight="Bold" Click="SupplyManagement_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="SustainableOperations" Content="Sustainable Operations" HorizontalAlignment="Left" Margin="305,515,0,0" VerticalAlignment="Top" Width="170" Height="70" FontWeight="Bold" Click="SustainableOperations_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="LogisticsManagement" Content="Logistics Management" HorizontalAlignment="Left" Margin="557,51,0,0" VerticalAlignment="Top" Width="170" Height="70" FontWeight="Bold" Click="LogisticsManagement_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="DemandForecasting" Content="Demand Forecasting" HorizontalAlignment="Left" Margin="553,158,0,0" VerticalAlignment="Top" Width="170" Height="70" FontWeight="Bold" Click="DemandForecasting_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="SalesOperationsPlanning" Content="Sales Operations Planning" HorizontalAlignment="Left" Margin="555,283,0,0" VerticalAlignment="Top" Height="70" Width="170" FontWeight="Bold" Click="SalesOperationsPlanning_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="MaterialsResourceReqPlanning" Content="MaterialsResourceReqPlanning" HorizontalAlignment="Left" Margin="558,413,0,0" VerticalAlignment="Top" Height="70" Width="170" FontWeight="Bold" Click="MaterialsResourceReqPlanning_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="ProjectPlanning" Content="Project Planning" HorizontalAlignment="Left" Margin="556,513,0,0" VerticalAlignment="Top" Width="170" Height="70" FontWeight="Bold" Click="ProjectPlanning_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonClick.png"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>
