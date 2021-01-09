@@ -1,4 +1,4 @@
-# Managerial Operations
+# Operational Management
 
 The project provides an overview of Managerial Operations
 
