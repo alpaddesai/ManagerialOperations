@@ -12,6 +12,5 @@ All images are either custom by Alpa D Desai or a reference name is included
 
 ![image](Ethics.jpg)
 
-Additional details reference : https://github.com/alpaddesai/IntroductiontoSupplyChainManagement , https://github.com/alpaddesai/HW_SW_Integration_ProductSupport ,  https://github.com/alpaddesai/GlobalSupplyChainOperationsManagement and https://github.com/alpaddesai/CodingCombinatorialOptimization
+Additional details reference : https://github.com/alpaddesai/IntroductiontoSupplyChainManagement and https://github.com/alpaddesai/GlobalSupplyChainOperationsManagement 
 
-![image](CAPM1.jpg)
